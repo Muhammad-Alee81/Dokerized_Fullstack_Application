@@ -8,7 +8,7 @@ const port = process.env.PORT;
 app.get("/", (req, res) => {
   return res.status(200).json({
     status: "success",
-    message: "user registered successfully",
+    message: "user registered successfully...",
     data: {
       name: "Muhammad Alee",
     },
